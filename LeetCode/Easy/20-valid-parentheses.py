@@ -1,16 +1,18 @@
+# Complexity: O(n), where n = len of input string
+
 class Solution:
     def isValid(self, s: str) -> bool:
-        stack = [0]
-        brackets = {0: None, '(': ')', '[': ']', '{': '}'}
+        stack = []
+        dict = {"]":"[", "}":"{", ")":"("}
         for char in s:
-            if char in brackets.keys():
+            if char in dict.values():
                 stack.append(char)
-            elif char in brackets.values():
-                if stack == [0] or brackets[char] != stack.pop():
+            elif char in dict.keys():
+                if stack == [] or dict[char] != stack.pop():
                     return False
             else:
                 return False
-        return stack == [0]
+        return stack == []
 
 
 solve = Solution()
