@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75989436-413e-4a64-8f6b-e14cff50c6a8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/LeetCode/Easy/1-two-sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Array-Lists/1-e-two-sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Easy/13-roman-to-integer.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Numbers/13-e-roman-to-integer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Easy/14-longest-common-prefix.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Strings/14-e-longest-common-prefix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Easy/20-valid-parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Strings/20-e-valid-parentheses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Easy/21-merge-two-sorted-lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Array-Lists/21-e-merge-two-sorted-lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Easy/2114-maximum-number-of-words-found-in-sentences.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Strings/2114-e-maximum-number-of-words-found-in-sentences.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Easy/26-remove-duplicates-from-sorted-array.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Array-Lists/26-e-remove-duplicates-from-sorted-array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Easy/9-palindrome-number.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Numbers/9-e-palindrome-number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Easy/Dynamic Programming/509-fibonacci-number.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Dynamic Programming/509-e-fibonacci-number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Medium/2-add-two-numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Dynamic Programming/70-e-climbing-stairs.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29zCQLXuAc27wCPbWitxK5mZxpU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LeetCode/Array" />
+      <recent name="$PROJECT_DIR$/LeetCode/Strings" />
+      <recent name="$PROJECT_DIR$/LeetCode/Numbers" />
+      <recent name="$PROJECT_DIR$/LeetCode" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.509-e-fibonacci-number">
+    <configuration name="21-e-merge-two-sorted-lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/Easy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/Array/21-e-merge-two-sorted-lists.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2114-e-maximum-number-of-words-found-in-sentences" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/Easy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/Strings/2114-e-maximum-number-of-words-found-in-sentences.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="26-e-remove-duplicates-from-sorted-array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/Easy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/Array/26-e-remove-duplicates-from-sorted-array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="509-e-fibonacci-number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/Dynamic Programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/Dynamic Programming/509-e-fibonacci-number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="70-e-climbing-stairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/Dynamic Programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/Dynamic Programming/70-e-climbing-stairs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.509-e-fibonacci-number" />
+        <item itemvalue="Python.70-e-climbing-stairs" />
+        <item itemvalue="Python.2114-e-maximum-number-of-words-found-in-sentences" />
+        <item itemvalue="Python.26-e-remove-duplicates-from-sorted-array" />
+        <item itemvalue="Python.21-e-merge-two-sorted-lists" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75989436-413e-4a64-8f6b-e14cff50c6a8" name="Changes" comment="" />
+      <created>1654106509990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654106509990</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

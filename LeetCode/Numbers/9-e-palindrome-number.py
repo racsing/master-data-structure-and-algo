@@ -11,6 +11,7 @@
 
 """
 
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         reverse_num = 0
@@ -27,4 +28,3 @@ class Solution:
 solve = Solution()
 value = solve.isPalindrome(-121)
 print(value)
-
