@@ -3,12 +3,12 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
-        dict = {"]":"[", "}":"{", ")":"("}
+        dictionary = {"]": "[", "}": "{", ")": "("}
         for char in s:
-            if char in dict.values():
+            if char in dictionary.values():
                 stack.append(char)
-            elif char in dict.keys():
-                if stack == [] or dict[char] != stack.pop():
+            elif char in dictionary.keys():
+                if stack == [] or dictionary[char] != stack.pop():
                     return False
             else:
                 return False
