@@ -4,9 +4,9 @@ My solutions to coding interview problems on LeetCode. I will be adding my solut
 
 #### Difficulty Levels solved </br>
 
-⚪ Easy: 12 </br>
-🔵 Medium: 0 </br>
-🔴 Hard: 0  </br>
-⚫ Very Hard: 0  </br>
+⚪ Easy: 13 </br>
+🔵 Medium: 03 </br>
+🔴 Hard: 00  </br>
+⚫ Very Hard: 00  </br>
 
-#### Total: 12
+#### Total: 16
