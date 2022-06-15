@@ -1,5 +1,5 @@
-import re
-
+# Not an optimized Solution
+# Use KMP Algo to optimize
 
 class Solution:
 	def isRepeat(self, s):
@@ -13,8 +13,8 @@ class Solution:
 
 		for i in range(1, loop+1):
 			text = s[:i]
-			#counts = s.count(text)
-			counts = sum(map(lambda j, i, s: 1 if text in s[j:j+i] else 0, text))
+			counts = s.count(text)
+			#counts = sum(map(lambda j, i, s: 1 if text in s[j:j+i] else 0, text))
 			period = int(-(-length // i))
 			print(text, counts, period)
 

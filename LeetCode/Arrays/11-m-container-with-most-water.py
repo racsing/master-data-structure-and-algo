@@ -1,6 +1,8 @@
 from typing import List
 
 
+# TWO POINTER SOLUTION
+
 # TC: O(n) LINEAR TIME SOLUTION
 # SC: O(1)
 class Solution:
