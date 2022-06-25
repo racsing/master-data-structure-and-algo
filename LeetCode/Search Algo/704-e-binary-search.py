@@ -2,6 +2,8 @@ from typing import List
 
 
 # Iteration Method
+# TC: O(logn)
+# SC: O(1)
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         low, high = 0, len(nums) - 1
