@@ -4,8 +4,8 @@ My solutions to coding interview problems on LeetCode. I will be adding my solut
 
 #### Difficulty Levels solved </br>
 
-⚪ Easy: 22 + 5 = 27 </br>
-🔵 Medium: 09 + 2 = 11 </br>
+⚪ Easy: 20 + 5 = 25 </br>
+🔵 Medium: 10 + 2 + 1 = 12 </br>
 🔴 Hard: 00  </br>
 ⚫ Very Hard: 00  </br>
 
