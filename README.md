@@ -1,6 +1,7 @@
 # Interview Preparation - Python
 
-My solutions to coding interview problems on LeetCode. I will be adding my solutions to this repository every day starting from 01 June, 2022.
+My answers to coding interview questions from LeetCode, GFG, and other platforms will be added to this repository every day beginning on June 1, 2022. 
+I'm trying to maintain a spreadsheet to keep the track of my work and the link can be find below :)
 
 #### Difficulty Levels solved </br>
 
@@ -12,3 +13,4 @@ My solutions to coding interview problems on LeetCode. I will be adding my solut
 #### Total: 38
 
 
+https://docs.google.com/spreadsheets/d/1o4IQU2hxFrPdiGg-rlzuqP1OvgqP6gqRE3FR_ISn4vk/edit?usp=sharing
