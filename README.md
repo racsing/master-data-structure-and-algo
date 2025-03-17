@@ -22,19 +22,19 @@ Check it out here:  📌 **[My DSA Spreadsheet](https://docs.google.com/spreadsh
   </tr>
   <tr>
     <td>📘 LeetCode</td>
-    <td align="center">YY</td>
+    <td align="center">38</td>
   </tr>
   <tr>
     <td>📗 GFG</td>
-    <td align="center">ZZ</td>
+    <td align="center">9</td>
   </tr>
   <tr>
     <td>🎨 Others</td>
-    <td align="center">AA</td>
+    <td align="center">2</td>
   </tr>
   <tr>
     <td><b>🔢 Total</b></td>
-    <td align="center"><b>XX</b></td>
+    <td align="center"><b>49</b></td>
   </tr>
 </table>  
 
@@ -45,11 +45,11 @@ Check it out here:  📌 **[My DSA Spreadsheet](https://docs.google.com/spreadsh
 <table>
   <tr>
     <td>🔥 <b>Current Streak:</b></td>
-    <td>X days</td>
+    <td>2 days</td>
   </tr>
   <tr>
     <td>🚀 <b>Longest Streak:</b></td>
-    <td>Y days</td>
+    <td>2 days</td>
   </tr>
 </table>  
 
@@ -65,6 +65,6 @@ This `README.md` **automatically updates** whenever new solutions are added! �
 📧 **Email:** [rachanas.work@gmail.com](mailto:rachanas.work@gmail.com)  
 📸 **Instagram:** [@rachana.siingh](https://www.instagram.com/rachana.siingh/)  <br/>
 
-<p align="center"><b>Last Updated:</b> <code>{{auto-updated-date}}</code> </p>
+<p align="center"><b>Last Updated:</b> <code>2025-03-18</code> </p>
 
 
