@@ -6,6 +6,7 @@ on:
       - main  # Runs on new commits pushed to 'main' branch
   schedule:
     - cron: "0 0 * * *"  # Runs every day at midnight UTC (optional)
+  workflow_dispatch:  # ✅ Allows manual triggering
 
 jobs:
   update-readme:
@@ -13,10 +14,10 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v3
         with:
           python-version: '3.x'  # Uses the latest Python 3 version
 
@@ -25,10 +26,11 @@ jobs:
           python update_readme.py
 
       - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "🔄 Auto-update README with latest stats"
+          git commit -m "🔄 Auto-update README with latest stats" || echo "No changes to commit"
           git push
-        continue-on-error: true  # Prevents failure if nothing changed
