@@ -1,3 +1,22 @@
-/.idea/
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment folders
 venv/
+.venv/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and database
+logs/
+*.log
+db.sqlite3
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
 .gitignore
