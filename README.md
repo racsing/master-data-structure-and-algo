@@ -47,7 +47,7 @@ Check it out here: 📌 **[My DSA Spreadsheet](https://docs.google.com/spreadshe
   </tr>
   <tr>
     <td>🚀 <b>Longest Streak:</b></td>
-    <td>1 days</td>
+    <td>0 days</td>
   </tr>
 </table>  
 
@@ -64,6 +64,6 @@ This `README.md` **automatically updates** whenever new solutions are added! �
 📧 **Email:** [rachanas.work@gmail.com](mailto:rachanas.work@gmail.com)  
 📸 **Instagram:** [@rachana.siingh](https://www.instagram.com/rachana.siingh/)  <br/>
 
-<p align="center"><b>Last Updated:</b> <code>2025-03-23 11:41:56</code> </p>
+<p align="center"><b>Last Updated:</b> <code>2025-03-23 11:55:28</code> </p>
 
 
