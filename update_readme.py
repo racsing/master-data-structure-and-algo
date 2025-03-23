@@ -1,9 +1,12 @@
 import os
 import subprocess
 from datetime import datetime, timedelta
+import shutil
 
 # Define root folders
-FOLDERS = ["LeetCode", "GFG", "PatternPrinting"]  
+FOLDERS = ["LeetCode", "GFG", "PatternPrinting"]
+TEMPLATE_FILE = "README_template.md"
+README_FILE = "README.md"
 
 def count_py_files():
     """Recursively count .py files inside each folder and subfolders."""
@@ -44,11 +47,18 @@ def get_commit_streak():
 
 def update_readme():
     """Update README.md with latest problem counts and commit streak."""
+    if not os.path.exists(TEMPLATE_FILE):
+        print("🚨 Template file not found! Ensure README_template.md exists.")
+        return
+
+    # Copy template to README.md before modification
+    shutil.copy(TEMPLATE_FILE, README_FILE)
+
     file_counts = count_py_files()
     current_streak, longest_streak = get_commit_streak()
     last_updated = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    
-    with open("README.md", "r") as file:
+
+    with open(README_FILE, "r") as file:
         content = file.read()
 
     # Replace placeholders with actual values
@@ -60,10 +70,10 @@ def update_readme():
     content = content.replace("Y days", f"{longest_streak} days")
     content = content.replace("{{auto-updated-date}}", last_updated)
 
-    with open("README.md", "w") as file:
+    with open(README_FILE, "w") as file:
         file.write(content)
 
-    print("✅ README.md updated successfully!")
+    print(f"✅ README updated successfully! Last updated on {last_updated}")
 
 if __name__ == "__main__":
     update_readme()
