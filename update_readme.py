@@ -48,6 +48,7 @@ def get_commit_streak():
             if (commit_dates[i - 1] - commit_dates[i]).days == 1:
                 streak += 1  # Increase streak if consecutive
             else:
+                longest_streak = max(longest_streak, streak)
                 streak = 1  # Reset streak if gap exists
 
             longest_streak = max(longest_streak, streak)
