@@ -1,12 +1,10 @@
 # 🧠 Master DSA: Progress Tracker 
                                                                                       
-💡 _"Every problem solved is a step closer to mastery!"_ 💡
-  
+💡 *"Every problem solved is a step closer to mastery!"* 💡  
 
-This repository contains my solutions to **Data Structures & Algorithms (DSA)** problems from various platforms like **LeetCode, GFG.**  
-I'm also maintaining a **spreadsheet** 📊 to track my progress.  
+This repository contains my solutions to **Data Structures & Algorithms (DSA)** problems from various platforms like **LeetCode, GFG.** I'm also maintaining a **spreadsheet** 📊 to track my progress.  
 
-Check it out here:  📌 **[My DSA Spreadsheet](https://docs.google.com/spreadsheets/d/1o4IQU2hxFrPdiGg-rlzuqP1OvgqP6gqRE3FR_ISn4vk/edit?gid=2016400795#gid=2016400795)**  
+Check it out here: 📌 **[My DSA Spreadsheet](https://docs.google.com/spreadsheets/d/1o4IQU2hxFrPdiGg-rlzuqP1OvgqP6gqRE3FR_ISn4vk/edit?gid=2016400795#gid=2016400795)**  
 
 
 ## DSA Journey at a Glance! 
@@ -57,6 +55,7 @@ Check it out here:  📌 **[My DSA Spreadsheet](https://docs.google.com/spreadsh
   </tr>
 </table>
 
+
 ## ⏳ Auto-Update Magic ✨  
 This `README.md` **automatically updates** whenever new solutions are added! 🛠️  
 
@@ -65,6 +64,6 @@ This `README.md` **automatically updates** whenever new solutions are added! �
 📧 **Email:** [rachanas.work@gmail.com](mailto:rachanas.work@gmail.com)  
 📸 **Instagram:** [@rachana.siingh](https://www.instagram.com/rachana.siingh/)  <br/>
 
-<p align="center"><b>Last Updated:</b> <code>2025-03-23 11:20:58</code> </p>
+<p align="center"><b>Last Updated:</b> <code>2025-03-23 11:41:56</code> </p>
 
 
