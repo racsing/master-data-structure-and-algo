@@ -21,29 +21,42 @@ def count_py_files():
     return file_counts
 
 def get_commit_streak():
-    """Fetch commit streak using Git logs."""
+    """Fetch commit streak using Git logs and calculate correct streaks."""
     try:
-        logs = subprocess.check_output(["git", "log", "--pretty=format:%ad", "--date=short"]).decode().split("\n")
-        dates = [datetime.strptime(date, "%Y-%m-%d").date() for date in logs]
+        logs = subprocess.check_output(
+            ["git", "log", "--pretty=format:%ad", "--date=short"]
+        ).decode().split("\n")
 
+        if not logs:
+            return 0, 0  # No commits
+
+        # Convert string dates to datetime.date objects
+        commit_dates = sorted(set(datetime.strptime(date, "%Y-%m-%d").date() for date in logs), reverse=True)
+
+        today = datetime.today().date()
         current_streak = 0
         longest_streak = 0
-        today = datetime.today().date()
         streak = 0
 
-        for i in range(len(dates)):
-            if dates[i] == today - timedelta(days=streak):
-                streak += 1
-                current_streak = max(current_streak, streak)
-            else:
-                longest_streak = max(longest_streak, current_streak)
-                streak = 0
+        for i in range(len(commit_dates)):
+            if i == 0 and commit_dates[i] == today:
+                current_streak = 1  # Start counting from today if there's a commit
 
-        longest_streak = max(longest_streak, current_streak)
+            if i > 0 and (commit_dates[i - 1] - commit_dates[i]).days == 1:
+                streak += 1
+            else:
+                streak = 1  # Reset streak when there is a gap
+
+            longest_streak = max(longest_streak, streak)
+
+            if commit_dates[i] == today - timedelta(days=current_streak):
+                current_streak += 1
+
         return current_streak, longest_streak
 
     except subprocess.CalledProcessError:
-        return 0, 0
+        return 0, 0  # Handle errors gracefully
+    
 
 def update_readme():
     """Update README.md with latest problem counts and commit streak."""
