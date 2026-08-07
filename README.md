@@ -28,11 +28,11 @@ Check it out here: 📌 **[My DSA Spreadsheet](https://docs.google.com/spreadshe
   </tr>
   <tr>
     <td>🎨 Others</td>
-    <td align="center">2</td>
+    <td align="center">0</td>
   </tr>
   <tr>
     <td><b>🔢 Total</b></td>
-    <td align="center"><b>49</b></td>
+    <td align="center"><b>47</b></td>
   </tr>
 </table>  
 
@@ -43,7 +43,7 @@ Check it out here: 📌 **[My DSA Spreadsheet](https://docs.google.com/spreadshe
 <table>
   <tr>
     <td>🔥 <b>Current Streak:</b></td>
-    <td>0 days</td>
+    <td>1 days</td>
   </tr>
   <tr>
     <td>🚀 <b>Longest Streak:</b></td>
@@ -64,6 +64,6 @@ This `README.md` **automatically updates** whenever new solutions are added! �
 📧 **Email:** [rachanas.work@gmail.com](mailto:rachanas.work@gmail.com)  
 📸 **Instagram:** [@rachana.siingh](https://www.instagram.com/rachana.siingh/)  <br/>
 
-<p align="center"><b>Last Updated:</b> <code>2026-08-07 02:37:17</code> </p>
+<p align="center"><b>Last Updated:</b> <code>2026-08-07 15:40:55</code> </p>
 
 
