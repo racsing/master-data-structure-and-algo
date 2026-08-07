@@ -1,3 +1,24 @@
+"""
+Array Easy Problems Practice
+============================
+
+This file contains solutions for common easy-level array problems from A2Z Strivers Sheet.
+
+Total Questions: 8
+
+1. Largest Element
+2. Second Largest Element
+3. Check if Array is Sorted
+4. Remove Duplicates from Sorted Array
+5. Rotate Array (with extra space)
+6. Rotate Array (optimal in-place)
+7. Move Zeroes
+8. Find Maximum Consecutive Ones
+9. Single Number
+
+Note: Multiple solution methods for the same question are counted as one question.
+"""
+
 class Solution:
     def largest_element(self, nums):
         """ Given an array of integers nums, return the value of the largest element in the array

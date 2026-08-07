@@ -1,3 +1,26 @@
+"""
+Array Medium Problems Practice
+=============================
+
+This file contains solutions for common medium-level array problems from A2Z Strivers Sheet.
+
+Total Questions: 7
+
+1. Two Sum
+2. Sort Colors (three-pointer approach)
+3. Sort Colors (counting approach)
+4. Majority Element (Moore voting approach)
+5. Majority Element (hash map approach)
+6. Longest Subarray with Sum K (two-pointer approach)
+7. Longest Subarray with Sum K (prefix-sum approach)
+8. Maximum Subarray (Kadane's algorithm)
+9. Maximum Subarray (extended version)
+10. Rearrange Array
+11. Leaders in an Array
+
+Note: Multiple solution methods for the same question are counted as one question.
+"""
+
 class Solution:
 
     def two_sum(self, nums, target):

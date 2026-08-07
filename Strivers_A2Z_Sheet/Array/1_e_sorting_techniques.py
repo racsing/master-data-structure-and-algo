@@ -1,3 +1,19 @@
+"""
+Sorting Techniques Practice
+===========================
+
+This file contains implementations of common sorting algorithms.
+
+Total Questions: 5
+
+1. Selection Sort
+2. Bubble Sort
+3. Insertion Sort
+4. Merge Sort
+5. Quick Sort
+
+Note: Multiple solution methods for the same question are counted as one question.
+"""
 
 def swap(arr, x, y):
     temp =  arr[x]
